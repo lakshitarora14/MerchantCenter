@@ -3,12 +3,14 @@ package com.bookstore.catalog.controller;
 import com.bookstore.catalog.dto.CatalogDTO;
 import com.bookstore.catalog.entity.Catalog;
 import com.bookstore.catalog.service.CatalogService;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.*;
 
